@@ -7,11 +7,11 @@ const Tweet = ({ json }) => {
   const options = {
     cards: "hidden",
     align: "center",
-    width: 550,
+    width: "550",
     conversation: "none",
   };
 
-  <return TwitterTweetEmbed options={options} tweetId={id} />;
+  return <TwitterTweetEmbed options={options} tweetId={id} />;
 };
 
 export default Tweet;
